@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    >
+
+    <TextView
+        android:id="@+id/frage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+
+        android:layout_weight="1"
+        android:text="Sie befinden sich in einem Raum, alle Türen sind mit elektronischen Schlößern gesichert, der Einzige Weg sie zu öffnen ist ein Java Programm zum öffnen der Türen zu schreiben, was ca. 30 Minuten dauert oder 48 Stunden zu warten, bis die Türen sich automatisch öffnen.
+"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonAntwort1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/frage"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/button"
+        android:text="antwort1"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/buttonAntwort2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/buttonAntwort1"
+        android:layout_alignBottom="@+id/buttonAntwort1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button"
+        android:text="antwort2"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+
+</RelativeLayout>
