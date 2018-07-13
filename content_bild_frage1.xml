@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kittn.P2Projekt.VideosActivity"
+    tools:showIn="@layout/activity_videos">
+
+    <TextView
+        android:id="@+id/fortschritt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="                    Wähle ein Video aus"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/fortschritt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ms3" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mt3" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mt3" />
+</RelativeLayout>

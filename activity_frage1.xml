@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ergebnis"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_weight="1"
+        android:text="zaehler"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_toEndOf="@+id/button1"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="11dp"
+        android:layout_weight="1"
+        android:text="Ich liebe es"
+        tools:text="Nein" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Ich hasse es"
+        tools:text="Ja" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:indeterminateDuration="100"
+        android:progress="50" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp" />
+
+    <TextView
+        android:id="@+id/wertAusgabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginTop="94dp"
+        android:text="TextView" />
+
+</RelativeLayout>

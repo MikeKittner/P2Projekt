@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hawlogo2"
+    tools:context="com.example.kittn.P2Projekt.FragenBilderActivity">
+
+    <Button
+        android:id="@+id/button_bilder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="122dp"
+        android:background="@drawable/button"
+        android:text="Videos"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/button_fragen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignLeft="@+id/button_bilder"
+        android:layout_alignStart="@+id/button_bilder"
+        android:layout_below="@+id/button_bilder"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/button"
+        android:text="Test Fragen"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <Button
+        android:id="@+id/button_auswertung"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_hauptmenu"
+        android:layout_alignLeft="@+id/button_hauptmenu"
+        android:layout_alignStart="@+id/button_hauptmenu"
+        android:layout_marginTop="31dp"
+
+        android:background="@drawable/button"
+        android:text="Auswertung"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <Button
+        android:id="@+id/button_hauptmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignLeft="@+id/button_fragen"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_fragen"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:text="Hauptmenü"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+</RelativeLayout>
