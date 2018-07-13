@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.176" />
 
     <Button
-        android:id="@+id/buttonStart"
+        android:id="@+id/buttonVideos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="279dp"
+        android:layout_marginBottom="280dp"
         android:background="@drawable/button"
         android:text="Testfragen"
         android:textColor="@android:color/white"
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="177dp"
+        android:layout_marginBottom="200dp"
         android:background="@drawable/button"
         android:text="Skripte"
         android:textColor="@android:color/white"
@@ -83,12 +83,12 @@
 
 
     <Button
-        android:id="@+id/buttonDepartmentMedientechnik"
+        android:id="@+id/buttonYouTubeVideos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="120dp"
         android:background="@drawable/button"
         android:text="Java Tutorials \nauf YouTube"
         android:textColor="@android:color/white" />
